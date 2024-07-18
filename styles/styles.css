@@ -1,0 +1,84 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* variables */
+:root {
+  /* font-weight */
+  --semi-bold: 600;
+  --extra-bold: 800;
+
+  /* color */
+  --clr-red: rgb(230, 83, 60);
+}
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #000000;
+  line-height: 1;
+  font-weight: 400;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.display-flex {
+  display: flex;
+}
+
+/* navbar styles starts here */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.navbar h3 {
+  width: 10%;
+  font-size: 1.9rem;
+  font-style: italic;
+  font-weight: var(--extra-bold);
+  color: var(--clr-red);
+}
+.navbar ul {
+  width: 40%;
+  justify-content: space-between;
+}
+#special {
+  border-radius: 2rem;
+  background: var(--clr-red);
+  padding: 0.5rem 1.25rem;
+}
+.navbar > ul > li > a {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: var(--semi-bold);
+}
+.navbar-icon {
+  display: none;
+
+}
+/* navbar styles ends here */
+
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar-icon {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+  }
+}
