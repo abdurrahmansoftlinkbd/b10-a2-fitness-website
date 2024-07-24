@@ -146,7 +146,7 @@ a {
   width: 100%;
 }
 .workout {
-  width: 55%;
+  width: 51%;
   border: 1px solid var(--clr-gray-2);
   border-radius: 0.75rem;
   backdrop-filter: blur(20px);
@@ -155,6 +155,7 @@ a {
   position: absolute;
   top: 7.825rem;
   left: 14.375rem;
+  display: none;
 }
 .workout-number {
   color: var(--clr-white-1);
@@ -175,6 +176,7 @@ a {
   position: absolute;
   top: 26.25rem;
   right: 16rem;
+  display: none;
 }
 .video-tutorial span {
   display: block;
@@ -283,17 +285,31 @@ a {
     padding: 1rem 0.5rem;
   }
   .workout {
-    width: 47%;
-    top: 3rem;
-    left: 12rem;
+    width: 45%;
+    top: 29rem;
+    left: 7.75rem;
     padding: 0.5rem 0.75rem 1rem 1rem;
+    display: none;
+  }
+  .workout-number {
+    font-size: 1.875rem;
   }
   .video-tutorial {
-    top: 14.75rem;
-    right: 9.25rem;
+    top: 11.75rem;
+    right: 0.25rem;
+    display: none;
   }
 
   /* habits styles starts here */
-
+  .habits-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+  }
+  .habits-content {
+    width: 100%;
+  }
+  .habits-img-content h1 {
+    font-size: 2rem;
+  }
   /* habits styles ends here */
 }
