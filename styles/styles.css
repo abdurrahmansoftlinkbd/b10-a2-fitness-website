@@ -22,6 +22,8 @@
   --clr-gray-4: rgba(255, 255, 255, 0.1);
   --clr-gray-5: rgba(48, 48, 48, 0.54);
   --clr-gray-6: rgba(239, 237, 232, 0.65);
+  /* black */
+  --clr-black: rgb(34, 34, 34);
 }
 
 /* global styles */
@@ -247,7 +249,38 @@ a {
 /* habits section styles ends here */
 
 /* run styles starts here */
-
+.run {
+  margin-top: 6.25rem;
+  justify-content: space-around;
+  border-radius: 1.13rem;
+  background: var(--clr-black);
+  align-items: center;
+}
+.run-content {
+  width: 38%;
+}
+.run-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+  padding-top: 2.5rem;
+}
+.run-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  padding-top: 0.875rem;
+}
+.run-content button {
+  padding: 1rem 4rem;
+  margin-top: 2.125rem;
+}
+.run-img {
+  width: 32%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 1.13rem;
+}
 /* run styles ends here */
 
 /* responsive for small devices */
@@ -312,8 +345,29 @@ a {
   .habits-content {
     width: 100%;
   }
-  .habits-img-content h1 {
+  .habits-content h1 {
     font-size: 2rem;
   }
   /* habits styles ends here */
+
+  /* run styles starts here */
+  .run {
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 3rem;
+  }
+  .run-content {
+    width: 100%;
+  }
+  .run-content h1 {
+    font-size: 2rem;
+  }
+  .run-content button {
+    width: 100%;
+    margin: 1rem 0 2rem 0;
+  }
+  .run-img {
+    width: 100%;
+  }
+  /* run styles ends here */
 }
