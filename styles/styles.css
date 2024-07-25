@@ -67,7 +67,6 @@ a {
   color: var(--clr-white-1);
   background-color: var(--clr-red);
   border-radius: 2.63rem;
-  letter-spacing: 1px;
   padding: 1rem 2.5rem;
   font-size: 1rem;
   font: var(--semi-bold);
@@ -128,12 +127,12 @@ a {
   font-family: "Dancing Script", cursive;
 }
 #btn-special-1 {
-  width: 38%;
+  /* width: 38%; */
 }
 #btn-special {
   background-color: transparent;
   border: 1px solid var(--clr-white-1);
-  width: 38%;
+  /* width: 38%; */
 }
 .btn-container {
   width: 100%;
@@ -370,4 +369,45 @@ a {
     width: 100%;
   }
   /* run styles ends here */
+}
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar > ul {
+    width: 58%;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-content {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-content h1 {
+    width: 77%;
+  }
+  .banner-content p {
+    width: 76%;
+  }
+  .btn-container {
+    width: 76%;
+    /* justify-content: center; */
+    /* margin-right: 8rem; */
+  }
+  .banner-img {
+    margin-top: -7rem;
+  }
+
+  .habits-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .habits-img {
+    
+  }
 }
