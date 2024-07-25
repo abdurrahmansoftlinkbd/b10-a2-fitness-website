@@ -5,6 +5,7 @@
 /* variables */
 :root {
   /* font-weight */
+  --medium: 500;
   --semi-bold: 600;
   --extra-bold: 800;
   --black: 900;
@@ -296,7 +297,7 @@ a {
 }
 .bmi-calculator-title-content {
   width: 50%;
-    margin-inline: auto;
+  margin-inline: auto;
 }
 .bmi-calculator-title-content h1 {
   color: var(--clr-white-1);
@@ -306,6 +307,22 @@ a {
 .bmi-calculator-title-content p {
   color: var(--clr-gray-1);
   font-size: 0.875rem;
+}
+/* bmi-calculator styles ends here */
+
+/* bmi-calculator styles starts here */
+.bmi-calculator-chart h3 {
+  color: var(--clr-white-1);
+  font-size: 1.75rem;
+  font-weight: var(--black);
+}
+.bmi-calculator-chart th {
+  color: var(--clr-white-1);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 /* bmi-calculator styles ends here */
 
@@ -401,17 +418,17 @@ a {
   }
   /* run styles ends here */
 
-    /* bmi-calculator styles starts here */
-    .bmi-calculator-title {
-      margin-top: 1.75rem;
-    }
-    .bmi-calculator-title-content {
-      width: 100%;
-    }
-    .bmi-calculator-title-content h1 {
-      font-size: 2rem;
-    }
-    /* bmi-calculator styles ends here */
+  /* bmi-calculator styles starts here */
+  .bmi-calculator-title {
+    margin-top: 1.75rem;
+  }
+  .bmi-calculator-title-content {
+    width: 100%;
+  }
+  .bmi-calculator-title-content h1 {
+    font-size: 2rem;
+  }
+  /* bmi-calculator styles ends here */
 }
 
 /* responsive for medium devices */
@@ -470,6 +487,9 @@ a {
   }
   /* run styles ends here */
 
+  .bmi-calculator-title {
+    margin-top: 3.75rem;
+  }
   .bmi-calculator-title-content {
     width: 100%;
   }
