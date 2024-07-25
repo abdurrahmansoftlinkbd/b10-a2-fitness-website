@@ -126,13 +126,9 @@ a {
 #banner-special {
   font-family: "Dancing Script", cursive;
 }
-#btn-special-1 {
-  /* width: 38%; */
-}
 #btn-special {
   background-color: transparent;
   border: 1px solid var(--clr-white-1);
-  /* width: 38%; */
 }
 .btn-container {
   width: 100%;
@@ -199,6 +195,7 @@ a {
   font-size: 1rem;
   text-align: left;
 }
+/* banner section styles ends */
 
 /* habits section styles starts here */
 .habits {
@@ -279,12 +276,42 @@ a {
 .run-img img {
   width: 100%;
   border-radius: 1.13rem;
-  height: 100%;
 }
 /* run styles ends here */
 
+/* trainings styles starts */
+/* .trainings-img-1 {
+  background: rgba(6, 255, 210, 0.5);
+  width: 323px;
+  height: 218px;
+}
+.trainings-img-1 img{
+  width: 100%;
+  height: 100%;
+} */
+
+/* bmi-calculator styles starts here */
+.bmi-calculator-title {
+  margin-top: 4.875rem;
+}
+.bmi-calculator-title-content {
+  width: 50%;
+    margin-inline: auto;
+}
+.bmi-calculator-title-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+}
+.bmi-calculator-title-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+}
+/* bmi-calculator styles ends here */
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
+  /* navbar styles starts here */
   .navbar ul {
     display: none;
   }
@@ -293,7 +320,9 @@ a {
     color: var(--clr-white-1);
     font-size: 1.9rem;
   }
+  /* navbar styles ends here */
 
+  /* banner styles starts here */
   .banner {
     flex-direction: column;
     align-items: center;
@@ -336,6 +365,7 @@ a {
     right: 0.25rem;
     display: none;
   }
+  /* banner styles ends here */
 
   /* habits styles starts here */
   .habits-img {
@@ -370,14 +400,29 @@ a {
     width: 100%;
   }
   /* run styles ends here */
+
+    /* bmi-calculator styles starts here */
+    .bmi-calculator-title {
+      margin-top: 1.75rem;
+    }
+    .bmi-calculator-title-content {
+      width: 100%;
+    }
+    .bmi-calculator-title-content h1 {
+      font-size: 2rem;
+    }
+    /* bmi-calculator styles ends here */
 }
 
 /* responsive for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  /* navbar styles starts here */
   .navbar > ul {
     width: 58%;
   }
+  /* navbar styles ends here */
 
+  /* banner styles starts here */
   .banner {
     flex-direction: column;
     align-items: center;
@@ -403,7 +448,9 @@ a {
   .banner-img {
     margin-top: -7rem;
   }
+  /* banner styles ends here */
 
+  /* habits styles starts here */
   .habits-content {
     width: 80%;
     margin: 0 auto;
@@ -412,12 +459,18 @@ a {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
   }
+  /* habits styles ends here */
 
+  /* run styles starts here */
   .run-content h1 {
     font-size: 2.25rem;
   }
   .run-img {
     width: 40%;
-    /* height: 100%; */
+  }
+  /* run styles ends here */
+
+  .bmi-calculator-title-content {
+    width: 100%;
   }
 }
