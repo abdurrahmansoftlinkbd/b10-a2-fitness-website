@@ -279,6 +279,7 @@ a {
 .run-img img {
   width: 100%;
   border-radius: 1.13rem;
+  height: 100%;
 }
 /* run styles ends here */
 
@@ -410,5 +411,13 @@ a {
   .habits-img {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
+  }
+
+  .run-content h1 {
+    font-size: 2.25rem;
+  }
+  .run-img {
+    width: 40%;
+    /* height: 100%; */
   }
 }
