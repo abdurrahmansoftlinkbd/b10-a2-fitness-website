@@ -408,6 +408,7 @@ a {
     margin: 0 auto;
   }
   .habits-img {
-    
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.5rem;
   }
 }
