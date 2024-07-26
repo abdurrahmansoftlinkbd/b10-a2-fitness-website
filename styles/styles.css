@@ -571,10 +571,33 @@ select {
   }
   /* run styles ends here */
 
-  .bmi-calculator-title {
-    margin-top: 3.75rem;
-  }
+  /* bmi-calculator-title styles starts here */
+
   .bmi-calculator-title-content {
     width: 100%;
   }
+  /* bmi-calculator-title styles ends here */
+
+  /* bmi-calculator styles starts here */
+  .bmi-calculator {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.625rem;
+  }
+  .bmi-calculator-chart {
+    width: 100%;
+  }
+  .bmi-calculator-chart h3 {
+    font-size: 1.75rem;
+  }
+  .bmi-calculator-chart table {
+    margin-top: 1.45rem;
+  }
+  .bmi-calculator-form {
+    width: 100%;
+  }
+  .bmi-calculator-form h3 {
+    font-size: 1.75rem;
+  }
+  /* bmi-calculator styles ends here */
 }
