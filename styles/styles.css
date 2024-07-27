@@ -413,10 +413,9 @@ select {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.25rem;
   place-items: center;
-    column-gap: 1.25rem;
 }
 .product-img {
-  width: 100%
+  width: 100%;
 }
 .product-img img {
   width: 100%;
@@ -565,6 +564,16 @@ select {
     font-size: 1rem;
   }
   /* bmi-calculator styles ends here */
+
+  /* online-store styles starts here */
+  .online-store-product-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .online-store h1 {
+    text-align: center;
+  }
+  /* online-store styles ends here */
 }
 
 /* responsive for medium devices */
@@ -652,4 +661,14 @@ select {
     font-size: 1.75rem;
   }
   /* bmi-calculator styles ends here */
+
+  /* online-store styles starts here */
+  .online-store-product-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+  .online-store h1 {
+    text-align: center;
+  }
+  /* online-store styles ends here */
 }
