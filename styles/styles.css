@@ -438,6 +438,66 @@ select {
 }
 /* online-store styles ends here */
 
+/* team styles starts here */
+.team {
+  margin-top: 5.5rem;
+}
+.team-content {
+  width: 57%;
+  margin-inline: auto;
+}
+.team-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+  text-align: center;
+}
+.team-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  text-align: center;
+}
+.team-img-boss {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 2.625rem;
+  padding: 3rem 1rem;
+  border-radius: 1.125rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  place-items: center;
+  justify-content: center;
+}
+.team-img-container {
+  position: relative;
+}
+.team-img {
+  height: 272px;
+}
+.team-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.125rem;
+  filter: brightness(80%);
+  object-fit: cover;
+}
+
+.team-img-content {
+  position: absolute;
+  top: 13rem;
+  left: 1.25rem;
+}
+.team-img-content h4 {
+  color: var(--clr-white-1);
+  font-size: 1.5rem;
+  font-weight: var(--extra-bold);
+}
+.team-img-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+}
+/* team styles ends here */
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
   /* navbar styles starts here */
@@ -574,6 +634,16 @@ select {
     text-align: center;
   }
   /* online-store styles ends here */
+
+  /* team styles starts here */
+  .team-content {
+    width: 100%;
+  }
+  .team-img-boss {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 2rem;
+  }
+  /* team styles ends here */
 }
 
 /* responsive for medium devices */
@@ -671,4 +741,14 @@ select {
     text-align: center;
   }
   /* online-store styles ends here */
+
+  /* team styles starts here */
+  .team-img-boss {
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+  .team-img-content h4 {
+    white-space: nowrap;
+  }
+  /* team styles ends here */
 }
