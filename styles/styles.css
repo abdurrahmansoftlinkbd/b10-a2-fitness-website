@@ -7,7 +7,9 @@
   /* font-weight */
   --medium: 500;
   --semi-bold: 600;
+  --bold: 700;
   --extra-bold: 800;
+
   --black: 900;
 
   /* color */
@@ -71,6 +73,15 @@ a {
   border-radius: 2.63rem;
   padding: 1rem 2.5rem;
   font-size: 1rem;
+  font: var(--semi-bold);
+  border: 1px solid var(--clr-red);
+}
+.btn-cart {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-red);
+  font-size: 1rem;
+  padding: 0.625rem 1rem;
   font: var(--semi-bold);
   border: 1px solid var(--clr-red);
 }
@@ -386,6 +397,47 @@ select {
   grid-column-end: -1;
 }
 /* bmi-calculator styles ends here */
+
+/* online-store styles starts here */
+.online-store {
+  margin-top: 6.25rem;
+}
+.online-store h1 {
+  color: var(--clr-white-1);
+  font-size: 1.875rem;
+  font-weight: var(--black);
+  margin-bottom: 3.75rem;
+}
+.online-store-product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.25rem;
+  place-items: center;
+    column-gap: 1.25rem;
+}
+.product-img {
+  width: 100%
+}
+.product-img img {
+  width: 100%;
+}
+.product-info h4 {
+  font-size: 1.25rem;
+  color: var(--clr-white-1);
+  font-weight: var(--medium);
+  margin: 1.875rem 0 0.75rem;
+}
+.product-rating span {
+  color: rgb(255, 165, 52);
+  font-size: 0.875rem;
+}
+.product-info p {
+  color: var(--clr-red);
+  font-weight: var(--bold);
+  font-size: 1rem;
+  margin: 0.5rem 0 0.625rem 0;
+}
+/* online-store styles ends here */
 
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
