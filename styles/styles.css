@@ -294,15 +294,218 @@ a {
 /* run styles ends here */
 
 /* trainings styles starts */
-/* .trainings-img-1 {
-  background: rgba(6, 255, 210, 0.5);
-  width: 323px;
-  height: 218px;
+.trainings {
+  margin-top: 6.25rem;
 }
-.trainings-img-1 img{
+.trainings-content h1 {
+  color: var(--clr-white-1);
+  font-size: 3rem;
+  font-weight: var(--black);
+}
+.trainings-content p {
+  color: var(--clr-gray-1);
+  font-size: 0.875rem;
+  margin-top: 0.875rem;
+}
+.trainings-img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 3.625rem;
+}
+.trainings-img-card-1 {
+  position: relative;
+  /* width: 72%; */
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.trainings-img-1 {
+  background-image: url(../images/exercise1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100%;
-} */
+  position: absolute;
+}
+.trainings-img-overlay-1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 255, 210, 0.5);
+  position: absolute;
+}
+.trainings-text-1 {
+  position: absolute;
+  top: 157px;
+  left: 20px;
+}
+.trainings-text-1 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+.trainings-img-card-2 {
+  position: relative;
+  /* width: 520px; */
+  height: 200px;
+  grid-column-start: 4;
+  grid-column-end: 9;
+}
+.trainings-img-2 {
+  background-image: url(../images/exercise2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.trainings-img-overlay-2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.3);
+  position: absolute;
+}
+.trainings-text-2 {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.trainings-text-2 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+.trainings-img-card-3 {
+  position: relative;
+  /* width: 290px; */
+  height: 200px;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.trainings-img-3 {
+  background-image: url(../images/exercise3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.trainings-img-overlay-3 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.trainings-text-3 {
+  position: absolute;
+  top: 157px;
+  left: 20px;
+}
+.trainings-text-3 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+.trainings-img-card-4 {
+  position: relative;
+  /* width: 425px; */
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.trainings-img-4 {
+  background-image: url(../images/exercise4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.trainings-img-overlay-4 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.trainings-text-4 {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.trainings-text-4 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+.trainings-img-card-5 {
+  position: relative;
+  /* width: 288px; */
+  height: 200px;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+.trainings-img-5 {
+  background-image: url(../images/exercise5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.trainings-img-overlay-5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 255, 0, 0.3);
+  position: absolute;
+}
+.trainings-text-5 {
+  position: absolute;
+  top: 157px;
+  left: 20px;
+}
+.trainings-text-5 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+.trainings-img-card-6 {
+  position: relative;
+  /* width: 347px; */
+  height: 200px;
+  grid-column-start: 8;
+  grid-column-end: 13;
+}
+.trainings-img-6 {
+  background-image: url(../images/exercise6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.trainings-img-overlay-6 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 71, 255, 0.3);
+  position: absolute;
+}
+.trainings-text-6 {
+  position: absolute;
+  top: 157px;
+  left: 20px;
+}
+.trainings-text-6 h4 {
+  color: var(--clr-white-1);
+  font-size: 0.875rem;
+  font-weight: var(--medium);
+}
+
+/* trainings styles ends */
 
 /* bmi-calculator styles starts here */
 .bmi-calculator-title {
