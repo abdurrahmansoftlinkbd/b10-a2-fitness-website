@@ -813,4 +813,12 @@ hr {
     white-space: nowrap;
   }
   /* team styles ends here */
+
+  /* footer styles starts here */
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    row-gap: 6.25rem;
+  }
+  /* footer styles ends here */
 }
