@@ -800,8 +800,8 @@ hr {
     width: 45%;
     left: 11.75rem;
     padding: 0.5rem 0.75rem 1rem 1rem;
-    /* display: none; */
     top: 2rem;
+    display: none;
   }
   .workout-number {
     font-size: 1.875rem;
