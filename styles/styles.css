@@ -860,6 +860,10 @@ hr {
   /* bmi-calculator-title styles ends here */
 
   /* bmi-calculator styles starts here */
+  .bmi {
+    margin-top: 2rem;
+    padding-top: 2.125rem;
+  }
   .bmi-calculator {
     flex-direction: column;
     align-items: center;
