@@ -1,6 +1,5 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 /* variables */
 :root {
@@ -137,7 +136,8 @@ a {
   margin-top: 1.5rem;
 }
 #banner-special {
-  font-family: "Dancing Script", cursive;
+  font-family: "Miama Regular";
+  font-weight: normal;
 }
 #btn-special {
   background-color: transparent;
@@ -197,6 +197,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .video-tutorial-number {
   color: var(--clr-white-2);
@@ -763,6 +764,7 @@ hr {
     display: block;
     color: var(--clr-white-1);
     font-size: 1.9rem;
+    cursor: pointer;
   }
   /* navbar styles ends here */
 
